@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute": "node dist/index.js executeDay"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.11.10",
-    "typescript": "^4.9.3"
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
   },
   "dependencies": {
-    "commander": "^9.4.1"
+    "commander": "^12.1.0"
   }
 }
