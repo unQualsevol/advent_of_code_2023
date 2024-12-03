@@ -8,9 +8,10 @@ import {day06} from "./day06/WaitForIt";
 import {day07} from "./day07/CamelCards";
 import {day08} from "./day08/HauntedWasteland";
 import {day09} from "./day09/MirageMaintenance";
+import {day10} from "./day10/PipeMaze";
 
 export function getSolutions(): Solution[] {
 	return [
 		day01, day02, day03, day04, day05,
-		day06, day07, day08, day09];
+		day06, day07, day08, day09, day10];
 }
